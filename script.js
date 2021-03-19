@@ -96,7 +96,7 @@ const weightsReps = (weightsType) => {
     }
 }
 
-
+// Selects a type of workout from each array and then uses that to get the reps/distance. prints workout.
 const generateWorkout = () => {
     workoutType = type[Math.floor(Math.random() * type.length)];
     cardioType = cardio[Math.floor(Math.random() * cardio.length)];
